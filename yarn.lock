@@ -10,6 +10,6 @@
   version "2.0.0-dev"
   resolved "https://github.com/maestrano/mno-enterprise-angular.git#33559e6a0377875c16bb3df9ca1ec0ba4619867b"
 
-"mnoe-admin-panel@git+https://git@github.com/maestrano/mnoe-admin-panel.git#2.0":
+"mnoe-admin-panel@https://github.com/RidaAhmad/mnoe-admin-panel.git#opalsup-299-unable-to-remove-clients":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/maestrano/mnoe-admin-panel.git#b008f7dd1e9782ccb98eb17d4e060bc8f136c87f"
+  resolved "https://github.com/RidaAhmad/mnoe-admin-panel.git#e21abeac874e7d674dc69c9944686e5726f0febb"
