@@ -102,7 +102,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     colorize (0.8.1)
-    commander (4.4.4)
+    commander (4.4.6)
       highline (~> 1.7.2)
     commonjs (0.2.7)
     concurrent-ruby (1.0.5)
@@ -210,7 +210,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     newrelic_rpm (5.0.0.342)
-    nex_client (0.16.0)
+    nex_client (0.17.0)
       activesupport
       colorize
       commander
@@ -387,7 +387,7 @@ DEPENDENCIES
   intercom (~> 3.5.4)
   mno-enterprise!
   newrelic_rpm
-  nex_client (~> 0.16.0)
+  nex_client (~> 0.17.0)
   puma
   rails (~> 4.2.6)
   rails_stdout_logging
