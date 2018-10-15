@@ -12,4 +12,4 @@
 
 "mnoe-admin-panel@git+https://git@github.com/iseessel/mnoe-admin-panel.git#feature/mnoe-1286-sync-status-for-apps":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/iseessel/mnoe-admin-panel.git#0658b31be4554f96ac00ecdb4fd15103924fe66f"
+  resolved "git+https://git@github.com/iseessel/mnoe-admin-panel.git#bd0e957336e9098b8ebb38eb73714ad0b6aec869"
