@@ -7,7 +7,7 @@ gem 'rails', '~> 4.2.6'
 
 # Maestrano Enterprise Engine
 # Bundle edge Mnoe instead:
-gem 'mno-enterprise', git: 'https://github.com/maestrano/mno-enterprise', branch: '4.0'
+gem 'mno-enterprise', git: 'https://github.com/iseessel/mno-enterprise', branch: 'feature/marlin-382-dashboard-widget-kpi-creation'
 
 # Use local mnoe
 # gem 'mno-enterprise', path: '../mno-enterprise'
@@ -29,7 +29,7 @@ gem 'uglifier', '>= 1.3.0'
 group :uat, :production do
   gem 'newrelic_rpm'
   gem 'rails_stdout_logging' # For Nex! logs
-  gem 'nex_client', '~> 0.16.0'
+  gem 'nex_client', '~> 0.17.0'
 end
 
 # CI gems
