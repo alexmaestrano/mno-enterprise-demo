@@ -10,6 +10,6 @@
   version "2.0.0-dev"
   resolved "https://github.com/maestrano/mno-enterprise-angular.git#26b26f93a178348340c8a64352ddbf9d5063c4d3"
 
-"mnoe-admin-panel@git+https://git@github.com/maestrano/mnoe-admin-panel.git#2.0":
+"mnoe-admin-panel@git+https://git@github.com/iseessel/mnoe-admin-panel.git#improvements/marlin-377-expand-search-functionality":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/maestrano/mnoe-admin-panel.git#aa8b6d6abc8d68a30de87888ce7cddb37740f67e"
+  resolved "git+https://git@github.com/iseessel/mnoe-admin-panel.git#80fb66525b58903be3f0cc6019f87708eb7da996"
