@@ -12,4 +12,4 @@
 
 "mnoe-admin-panel@git+https://git@github.com/iseessel/mnoe-admin-panel.git#improvements/marlin-377-expand-search-functionality":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/iseessel/mnoe-admin-panel.git#80fb66525b58903be3f0cc6019f87708eb7da996"
+  resolved "git+https://git@github.com/iseessel/mnoe-admin-panel.git#6192a4be0de08d90c087b831e1c5fd739a1ab3b6"
