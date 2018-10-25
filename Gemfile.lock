@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/iseessel/mno-enterprise
-  revision: 5e6b3a452a2f6b93e67e77fe9823c2b71b310b82
+  revision: a9e5b2140f753d33a7fdbe150e500180e6d58929
   branch: improvements/marlin-377-expand-search-functionality
   specs:
     mno-enterprise (4.0.0.pre.dev)
