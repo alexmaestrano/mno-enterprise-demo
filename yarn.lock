@@ -6,10 +6,10 @@
   version "1.6.11"
   resolved "git+https://git@github.com/maestrano/impac-angular.git#5c37c7a5f0c2dc7c7ead8d9eb242b382bb1b8445"
 
-"mno-enterprise-angular@https://github.com/iseessel/mno-enterprise-angular.git#improvement/mnoe-1285-date-format-by-locale":
+"mno-enterprise-angular@https://github.com/maestrano/mno-enterprise-angular.git#2.0":
   version "2.0.0-dev"
-  resolved "https://github.com/iseessel/mno-enterprise-angular.git#0ebe5f37872ff8c05e5386c6498efb97963a1f66"
+  resolved "https://github.com/maestrano/mno-enterprise-angular.git#55bd55b6a5eb2b0614a6887ba3dc82c9e1b11db8"
 
-"mnoe-admin-panel@git+https://git@github.com/maestrano/mnoe-admin-panel.git#2.0":
+"mnoe-admin-panel@git+https://git@github.com/iseessel/mnoe-admin-panel.git#improvement/mnoe-1285-date-format-by-locale":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/maestrano/mnoe-admin-panel.git#04c4fbe2281683cc45a44947ce664bc184da8278"
+  resolved "git+https://git@github.com/iseessel/mnoe-admin-panel.git#3e20615e413253690e1ed97b5a1ba90c4b1178fb"
