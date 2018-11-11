@@ -6,10 +6,10 @@
   version "1.6.11"
   resolved "git+https://git@github.com/maestrano/impac-angular.git#5c37c7a5f0c2dc7c7ead8d9eb242b382bb1b8445"
 
-"mno-enterprise-angular@https://github.com/maestrano/mno-enterprise-angular.git#2.0":
+"mno-enterprise-angular@https://github.com/adamaziz15/mno-enterprise-angular.git#bug/83-subs-mgmt":
   version "2.0.0-dev"
-  resolved "https://github.com/maestrano/mno-enterprise-angular.git#26b26f93a178348340c8a64352ddbf9d5063c4d3"
+  resolved "https://github.com/adamaziz15/mno-enterprise-angular.git#5009e03174e6040f6ee1c84c6fa57990c128a2ee"
 
-"mnoe-admin-panel@git+https://git@github.com/maestrano/mnoe-admin-panel.git#2.0":
+"mnoe-admin-panel@git+https://git@github.com/adamaziz15/mnoe-admin-panel.git#344-1295-testing":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/maestrano/mnoe-admin-panel.git#aa8b6d6abc8d68a30de87888ce7cddb37740f67e"
+  resolved "git+https://git@github.com/adamaziz15/mnoe-admin-panel.git#b3d712a7583925d981e8365347fa93dcb29114cc"
