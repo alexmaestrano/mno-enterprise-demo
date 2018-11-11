@@ -10,3 +10,8 @@ mno:
   host: api-hub.maestrano.com
   paths:
     root: /api/mnoe/v1
+
+dashboard:
+  app_management_requirements:
+    billing_details: true
+    current_account: true
