@@ -1642,6 +1642,16 @@ dashboard-company-selectbox {
   }
 }
 
+
+dashboard-language-selectbox {
+  display: block;
+
+  .selector-line {
+    display: inline-block;
+    margin: 5px auto;
+  }
+}
+
 dashboard-menu {
   /*-----------------------------------------------------------------------*/
   /*                         Mobile menu                                   */
@@ -1847,16 +1857,6 @@ dashboard-menu {
     .dashboard-button.active i.dhb-icon-logout {
       @dashboard-side-menu-btn-logout-active();
     }
-  }
-}
-
-
-dashboard-language-selectbox {
-  display: block;
-
-  .selector-line {
-    display: inline-block;
-    margin: 5px auto;
   }
 }
 
@@ -2463,6 +2463,42 @@ form.editable-wrap .editable-controls input {
   }
 }
 
+.dashboard-apps-management {
+  .apps-wrapper {
+    border: 1px solid @dashboard-app-management-border-color;
+    border-radius: 3px;
+    padding: 20px;
+  }
+  .app-section {
+    border-bottom: 1px solid @dashboard-app-management-border-color;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:last-child {
+      border-bottom: 1px solid transparent;
+    }
+  }
+
+  .app-logo-wrapper,
+  .app-btn-events,
+  .app-info {
+    flex: 1;
+  }
+
+  .app-btn-events {
+    a {
+      margin-left: 10px;
+    }
+  }
+
+  .app-info {
+    span, strong {
+      display: block;
+    }
+  }
+}
+
 #dashboard-apps-list {
   .app-dashboard {
     min-height: 280px;
@@ -2551,42 +2587,6 @@ form.editable-wrap .editable-controls input {
       &:hover {
         color: @brand-warning;
       }
-    }
-  }
-}
-
-.dashboard-apps-management {
-  .apps-wrapper {
-    border: 1px solid @dashboard-app-management-border-color;
-    border-radius: 3px;
-    padding: 20px;
-  }
-  .app-section {
-    border-bottom: 1px solid @dashboard-app-management-border-color;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:last-child {
-      border-bottom: 1px solid transparent;
-    }
-  }
-
-  .app-logo-wrapper,
-  .app-btn-events,
-  .app-info {
-    flex: 1;
-  }
-
-  .app-btn-events {
-    a {
-      margin-left: 10px;
-    }
-  }
-
-  .app-info {
-    span, strong {
-      display: block;
     }
   }
 }
@@ -3901,6 +3901,16 @@ form.editable-wrap .editable-controls input {
   }
 }
 
+.dashboard-app-management {
+  .margin-left-20 {
+    margin-left: 20px;
+  }
+
+  .order-histroy {
+    background-color: white;
+  }
+}
+
 #app-connect-modal {
 
   select {
@@ -3982,16 +3992,6 @@ form.editable-wrap .editable-controls input {
         color: @deletion-sentence-color;
       }
     }
-  }
-}
-
-.dashboard-app-management {
-  .margin-left-20 {
-    margin-left: 20px;
-  }
-
-  .order-histroy {
-    background-color: white;
   }
 }
 
