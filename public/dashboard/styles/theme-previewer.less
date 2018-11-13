@@ -1642,16 +1642,6 @@ dashboard-company-selectbox {
   }
 }
 
-
-dashboard-language-selectbox {
-  display: block;
-
-  .selector-line {
-    display: inline-block;
-    margin: 5px auto;
-  }
-}
-
 dashboard-menu {
   /*-----------------------------------------------------------------------*/
   /*                         Mobile menu                                   */
@@ -1860,9 +1850,31 @@ dashboard-menu {
   }
 }
 
+
+dashboard-language-selectbox {
+  display: block;
+
+  .selector-line {
+    display: inline-block;
+    margin: 5px auto;
+  }
+}
+
 impersonification-notification {
   .notifications {
     padding-top: 70px;
+  }
+}
+
+#address {
+  .address-sub-label {
+    font-size: x-small;
+    font-weight: lighter;
+    font-style: italic;
+    opacity: 0.6;
+  }
+  .country-select {
+    display:none;
   }
 }
 
@@ -1880,18 +1892,6 @@ impersonification-notification {
   }
   .fa-square-o {
     color: @onboarding-app-features-unchecked;
-  }
-}
-
-#address {
-  .address-sub-label {
-    font-size: x-small;
-    font-weight: lighter;
-    font-style: italic;
-    opacity: 0.6;
-  }
-  .country-select {
-    display:none;
   }
 }
 
