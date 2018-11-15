@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/adamaziz15/mno-enterprise
-  revision: e76c9540c0441ba2eaebb801bf316d7f62ded33e
+  revision: cd5aa9bfaa561c8ddae346c62ff8e54058cf03c0
   branch: feature/345-account-details
   specs:
     mno-enterprise (4.0.0.pre.dev)

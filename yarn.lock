@@ -8,7 +8,7 @@
 
 "mno-enterprise-angular@https://github.com/adamaziz15/mno-enterprise-angular.git#feature/345-app-mgmt-requirements":
   version "2.0.0-dev"
-  resolved "https://github.com/adamaziz15/mno-enterprise-angular.git#95e2b6c648cc9cc7b06547f2b4e0426e9b44d981"
+  resolved "https://github.com/adamaziz15/mno-enterprise-angular.git#799be38c379c70638c2d1c8711fac9156083e758"
 
 "mnoe-admin-panel@git+https://git@github.com/adamaziz15/mnoe-admin-panel.git#feature/345-app-mgmt-requirements":
   version "2.0.0-dev"
