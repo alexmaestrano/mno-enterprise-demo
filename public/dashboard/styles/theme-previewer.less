@@ -1179,6 +1179,34 @@ body {
   }
 }
 
+dashboard-company-cart {
+  .company-cart {
+    position: absolute;
+    right: 300px;
+    width: @dashboard-cart-width;
+    height: @dashboard-cart-height;
+    background-color: @dashboard-cart-bg-color;
+    font-size: @dashboard-cart-text-size;
+    border-left: 1px solid @dashboard-cart-border-color;
+    border-bottom: 1px solid @dashboard-cart-border-color;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    i {
+      font-size: 37px;
+      vertical-align: bottom;
+    }
+  }
+}
+
 #app-dock-container {
   position: absolute;
   left: 0;
@@ -1459,34 +1487,6 @@ ul.dock > li.prev img.app-logo {
 
     .add-app {
       color: @mno-dock-mobile-add-app-color;
-    }
-  }
-}
-
-dashboard-company-cart {
-  .company-cart {
-    position: absolute;
-    right: 300px;
-    width: @dashboard-cart-width;
-    height: @dashboard-cart-height;
-    background-color: @dashboard-cart-bg-color;
-    font-size: @dashboard-cart-text-size;
-    border-left: 1px solid @dashboard-cart-border-color;
-    border-bottom: 1px solid @dashboard-cart-border-color;
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    a {
-      &:hover {
-        text-decoration: none;
-      }
-    }
-
-    i {
-      font-size: 37px;
-      vertical-align: bottom;
     }
   }
 }
@@ -1940,6 +1940,16 @@ mno-audit-events-list {
   }
 }
 
+mno-inline-message {
+  .mno-inline-checked {
+    color: @dashboard-account-inline-text-color-checked;
+  }
+
+  .mno-inline-unchecked {
+    color: @dashboard-account-inline-text-color-unchecked;
+  }
+}
+
 mno-impersonation-bar {
   #impersonate-bar {
     color: @text-inverse-color;
@@ -1950,16 +1960,6 @@ mno-impersonation-bar {
     @media (max-width: @screen-xs-max) {
       padding-top: 40px;
     }
-  }
-}
-
-mno-inline-message {
-  .mno-inline-checked {
-    color: @dashboard-account-inline-text-color-checked;
-  }
-
-  .mno-inline-unchecked {
-    color: @dashboard-account-inline-text-color-unchecked;
   }
 }
 
@@ -2463,42 +2463,6 @@ form.editable-wrap .editable-controls input {
   }
 }
 
-.dashboard-apps-management {
-  .apps-wrapper {
-    border: 1px solid @dashboard-app-management-border-color;
-    border-radius: 3px;
-    padding: 20px;
-  }
-  .app-section {
-    border-bottom: 1px solid @dashboard-app-management-border-color;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:last-child {
-      border-bottom: 1px solid transparent;
-    }
-  }
-
-  .app-logo-wrapper,
-  .app-btn-events,
-  .app-info {
-    flex: 1;
-  }
-
-  .app-btn-events {
-    a {
-      margin-left: 10px;
-    }
-  }
-
-  .app-info {
-    span, strong {
-      display: block;
-    }
-  }
-}
-
 #dashboard-apps-list {
   .app-dashboard {
     min-height: 280px;
@@ -2587,6 +2551,42 @@ form.editable-wrap .editable-controls input {
       &:hover {
         color: @brand-warning;
       }
+    }
+  }
+}
+
+.dashboard-apps-management {
+  .apps-wrapper {
+    border: 1px solid @dashboard-app-management-border-color;
+    border-radius: 3px;
+    padding: 20px;
+  }
+  .app-section {
+    border-bottom: 1px solid @dashboard-app-management-border-color;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:last-child {
+      border-bottom: 1px solid transparent;
+    }
+  }
+
+  .app-logo-wrapper,
+  .app-btn-events,
+  .app-info {
+    flex: 1;
+  }
+
+  .app-btn-events {
+    a {
+      margin-left: 10px;
+    }
+  }
+
+  .app-info {
+    span, strong {
+      display: block;
     }
   }
 }
@@ -3901,16 +3901,6 @@ form.editable-wrap .editable-controls input {
   }
 }
 
-.dashboard-app-management {
-  .margin-left-20 {
-    margin-left: 20px;
-  }
-
-  .order-histroy {
-    background-color: white;
-  }
-}
-
 #app-connect-modal {
 
   select {
@@ -3992,6 +3982,16 @@ form.editable-wrap .editable-controls input {
         color: @deletion-sentence-color;
       }
     }
+  }
+}
+
+.dashboard-app-management {
+  .margin-left-20 {
+    margin-left: 20px;
+  }
+
+  .order-histroy {
+    background-color: white;
   }
 }
 
